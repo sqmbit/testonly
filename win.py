@@ -7,7 +7,7 @@ root.geometry('600x400')
 root.resizable(False, False)
 
 message = tk.Label(root, text ="Hello, World!", fg="blue", font=("Helvetica,14")).pack()
-message = tk.Label(root, text ="To Print click on print button", fg="blue", font=("Helvetica,14")).pack()
+message = tk.Label(root, text ="Click here to Print", fg="blue", font=("Helvetica,14")).pack()
 
 def button1Function(): print("Hello World")
 def button2Function(): root.destroy()
